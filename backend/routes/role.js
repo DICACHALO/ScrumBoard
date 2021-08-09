@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const RolController = require("../controllers/role");
+const RoleController = require("../controllers/role");
 
 // GET POST PUT DELETE
 
