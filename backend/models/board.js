@@ -5,7 +5,8 @@ const boardSchema = new mongoose.Schema({
     name: String,
     description: String,
     taskStatus: String,
-    imageUrl: {type: Date, default: Date.now},
+    imageUrl:String,
+    date: { type: Date, default: Date.now },
 });
 
 const board = mongoose.model("board", boardSchema);
